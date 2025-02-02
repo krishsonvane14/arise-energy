@@ -3,6 +3,10 @@
 
 @import url("sections/header.css");
 @import url("sections/hero.css");
+@import url("sections/about.css");
+@import url("sections/facts.css");
+@import url("sections/products.css");
+@import url("sections/footer.css");
 
 :root {
     --playfair-display: "Playfair Display", serif;
