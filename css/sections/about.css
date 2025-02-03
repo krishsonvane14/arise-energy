@@ -1,0 +1,29 @@
+.about-us {
+    display: flex;
+    min-height: 720px;
+    overflow: hidden;
+  }
+  
+  .about-us__image {
+    flex: 1;
+    position: relative;
+    padding-top: 20px;
+  }
+
+  .about-us__image-can2 {
+    
+    border-bottom: 8px solid var(--color-creamson);
+
+  }
+  .about-us__image-can2 img {
+    width: 576px ;
+  }
+
+  .about-us__content {
+    padding: 64px;
+  
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
