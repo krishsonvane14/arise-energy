@@ -63,17 +63,17 @@
     font-family: var(--plus-jakarta-sans);
   
     color: var(--primary-color);
-    opacity: 0.8;
+    opacity: 1;
   
     letter-spacing: -0.01em;
   }
   
   .arise__title {
     font-size: 64px;
-    font-weight: 600;
+    font-weight: 800;
     font-family: var(--playfair-display);
   
-    color: var(--secondary-color);
+    color: rgb(255, 255, 255);
   
     margin-top: 16px;
   }
@@ -86,8 +86,8 @@
     line-height: 36px;
     letter-spacing: -0.01em;
   
-    color: var(--secondary-color);
-    opacity: 0.8;
+    color: white;
+    opacity: 1;
   
     margin: 32px 0px;
   }

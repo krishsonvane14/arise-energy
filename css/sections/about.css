@@ -2,12 +2,15 @@
     display: flex;
     min-height: 720px;
     overflow: hidden;
+ 
   }
   
   .about-us__image {
     flex: 1;
     position: relative;
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
   }
 
   .about-us__image-can2 {
@@ -17,13 +20,28 @@
   }
   .about-us__image-can2 img {
     width: 576px ;
+    border-radius: 16px;
+
   }
 
   .about-us__content {
     padding: 64px;
-  
     flex: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
+    /* Add hero background with overlay */
+    background:url('/assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    
+    /* Add spacing between text and background */
+    margin: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 40px rgba(255, 253, 253, 0.1);
+  
+  /* Add text shadow for better contrast */
+  text-shadow: 0 2px 4px rgba(244, 238, 238, 0.1);
+
   }
