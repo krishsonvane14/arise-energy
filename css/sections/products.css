@@ -2,7 +2,7 @@
     padding: 64px;
     display: flex;
     flex-direction: column;
-    background-image: url("../assets/products-bg.png");
+    background-image: url("../../assets/products-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -31,7 +31,7 @@
     flex-direction: column;
     
     /* Add hero background with overlay */
-    background:url('../assets/hero-bg.png');
+    background:url('../../assets/hero-bg.png');
     background-size: cover;
     background-position: center;
     
