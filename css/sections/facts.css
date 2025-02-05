@@ -1,6 +1,6 @@
 .facts {
     position: relative;
-    background-image: url("../../assets/facts-bg.png");
+    background-image: url("../../assets/text-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,12 +18,12 @@
   }
   .facts__discover {
     position: absolute;
-    top: 44%;
-    left: 44%;
+    top: 42%;
+    left: 45%;
     z-index: 1;
   
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
   
     border-radius: 100%;
     background-color: var(--secondary-color);
@@ -44,7 +44,7 @@
   }
   
   .facts-energy,
-  .facts-drinks {
+  .facts-drink {
     width: 100%;
     min-height: 640px;
   
@@ -92,13 +92,23 @@
     object-fit: contain;
   }
   
-  .facts__list p {
+  .facts__list p  , #facts_para {
     flex: 1;
     font-size: 16px;
     font-weight: 500;
     font-family: var(--plus-jakarta-sans);
   
     color: var(--secondary-color);
+  }
+
+  #facts_para {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+  
+    color: var(--secondary-color);
+
   }
   
   .facts__image {
@@ -118,6 +128,24 @@
     height: 500px;
     object-fit: contain;
   }
+  .facts__image-2 img {
+    width: 100%;
+    height: 120%;
+    object-fit: contain;
+    
+  }
+  .facts__image-2 {
+    flex: 1;
+    
+    position: relative;
+    padding: 32px 64px;
+  
+    background-color: var(--color-white);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  
   
   /* Arrows */
   .facts__arrow {
@@ -160,3 +188,32 @@
     right: -2.5px;
     bottom: 12%;
   }
+/* Style for ingredient links */
+
+  
+  .ingredient-link:hover {
+    text-decoration:#fff;
+    cursor: pointer;
+  }
+  
+  .facts__content .facts__list {
+    margin-top: 10px;
+    gap: 24px;
+  }
+  
+  .link-icon img { 
+    width:25px;
+    border-radius: 50%;
+    
+  } 
+  
+  #ing_list {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+  
+    color: rgb(8, 76, 112);
+
+  }
+  
