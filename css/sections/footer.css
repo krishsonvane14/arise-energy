@@ -1,0 +1,139 @@
+.gymbro {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/footer-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 97%;
+    max-height: 1000px;
+    overflow: hidden;
+  }
+  
+  .gymbro h3 {
+    font-size: 70px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+    line-height: 90px;
+  
+    color: #fff;
+    text-align: center;
+  }
+  
+  .gymbro p {
+    font-size: 18px;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 600;
+    line-height: 36px;
+  
+    margin-top: 32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .gymbro__form {
+    min-width: auto; /* Remove fixed width since input is gone */
+    margin-top: 40px;
+    padding: 0; /* Remove unnecessary padding */
+    display: flex;
+    justify-content: center;
+    border: none; /* Remove border since it's just a button now */
+  }
+  
+  .gymbro__form button {
+    padding: 20px 20px; /* Adjust padding for better button size */
+    font-size: 18px;
+    font-weight: 600;
+    background: rgb(105, 143, 109); /* Keep brand consistency */
+    border-radius: 46px;
+    border: none;
+    cursor: pointer;
+    font-family: var(--plus-jakarta-sans);
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .gymbro__form button:hover {
+    background: rgb(153, 205, 222); /* Change color on hover for effect */
+  }
+
+
+
+  .footer {
+    width: 97%;
+    padding: 20px 40px;
+    background-image: url("../../assets/footer.png");
+  
+    flex-wrap: wrap;
+    gap: 20px;
+  
+    overflow: hidden;
+  }
+  
+  .footer__logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--playfair-display);
+    text-transform: uppercase;
+    color: white;
+  
+    cursor: pointer;
+  }
+  
+  .footer__logo span {
+    color: rgb(167, 215, 167)
+  }
+  
+  .footer ul {
+    list-style: none;
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px;
+  }
+  
+  .footer ul:last-child {
+    gap: 32px;
+  }
+  
+  .footer__nav li {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    text-transform: uppercase;
+    color: white;
+  
+    cursor: pointer;
+  }
+  
+  .footer__social li {
+    width: 42px;
+    height: 42px;
+    
+    background-color: var(--secondary-color);
+    border-radius: 100%;
+    display: flex;  /* Flexbox for centering */
+    justify-content: center;  /* Horizontally center the icon */
+    align-items: center;  /* Vertically center the icon */
+  }
+  
+  .footer__social li img {
+    width: 60%;  /* Adjust to keep the icon size as desired */
+    height: 60%;
+    object-fit: contain;
+  }
+  .footer__social li a {
+    display: flex;  /* Make the entire list item clickable */
+    justify-content: center;  /* Center the image inside the anchor */
+    align-items: center;  /* Center the image inside the anchor */
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .footer__social li a:hover {
+    opacity: 0.8; /* Slight hover effect for better interactivity */
+  }
+  
