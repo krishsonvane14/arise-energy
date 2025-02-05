@@ -57,3 +57,83 @@
   .gymbro__form button:hover {
     background: rgb(153, 205, 222); /* Change color on hover for effect */
   }
+
+
+
+  .footer {
+    width: 97%;
+    padding: 20px 40px;
+    background-image: url("../../assets/footer.png");
+  
+    flex-wrap: wrap;
+    gap: 20px;
+  
+    overflow: hidden;
+  }
+  
+  .footer__logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--playfair-display);
+    text-transform: uppercase;
+    color: white;
+  
+    cursor: pointer;
+  }
+  
+  .footer__logo span {
+    color: rgb(167, 215, 167)
+  }
+  
+  .footer ul {
+    list-style: none;
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px;
+  }
+  
+  .footer ul:last-child {
+    gap: 32px;
+  }
+  
+  .footer__nav li {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    text-transform: uppercase;
+    color: white;
+  
+    cursor: pointer;
+  }
+  
+  .footer__social li {
+    width: 42px;
+    height: 42px;
+    
+    background-color: var(--secondary-color);
+    border-radius: 100%;
+    display: flex;  /* Flexbox for centering */
+    justify-content: center;  /* Horizontally center the icon */
+    align-items: center;  /* Vertically center the icon */
+  }
+  
+  .footer__social li img {
+    width: 60%;  /* Adjust to keep the icon size as desired */
+    height: 60%;
+    object-fit: contain;
+  }
+  .footer__social li a {
+    display: flex;  /* Make the entire list item clickable */
+    justify-content: center;  /* Center the image inside the anchor */
+    align-items: center;  /* Center the image inside the anchor */
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .footer__social li a:hover {
+    opacity: 0.8; /* Slight hover effect for better interactivity */
+  }
+  
