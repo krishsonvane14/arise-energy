@@ -91,3 +91,7 @@
   
     margin: 32px 0px;
   }
+
+  .section {
+    margin-bottom: 70px; /* Adjust the value for more or less space */
+  }
