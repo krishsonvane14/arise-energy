@@ -1,0 +1,59 @@
+.gymbro {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/footer-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 97%;
+    max-height: 1000px;
+    overflow: hidden;
+  }
+  
+  .gymbro h3 {
+    font-size: 70px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+    line-height: 90px;
+  
+    color: #fff;
+    text-align: center;
+  }
+  
+  .gymbro p {
+    font-size: 18px;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 600;
+    line-height: 36px;
+  
+    margin-top: 32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .gymbro__form {
+    min-width: auto; /* Remove fixed width since input is gone */
+    margin-top: 40px;
+    padding: 0; /* Remove unnecessary padding */
+    display: flex;
+    justify-content: center;
+    border: none; /* Remove border since it's just a button now */
+  }
+  
+  .gymbro__form button {
+    padding: 20px 20px; /* Adjust padding for better button size */
+    font-size: 18px;
+    font-weight: 600;
+    background: rgb(105, 143, 109); /* Keep brand consistency */
+    border-radius: 46px;
+    border: none;
+    cursor: pointer;
+    font-family: var(--plus-jakarta-sans);
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .gymbro__form button:hover {
+    background: rgb(153, 205, 222); /* Change color on hover for effect */
+  }
